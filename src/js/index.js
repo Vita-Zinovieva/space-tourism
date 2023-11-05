@@ -62,6 +62,8 @@ document.addEventListener('DOMContentLoaded', function() {
           const imgCrew = document.querySelector('.img-crew');
           imgCrew.src = crewMember.images.webp;
           imgCrew.alt = `img-${crewMember.name.toLowerCase()}`;
+          imgCrew.width = crewMember.images.sizes.width;
+          imgCrew.height = crewMember.images.sizes.height;
                     
         } else if (page === 'technology') {
           const technology = data.technology[index];

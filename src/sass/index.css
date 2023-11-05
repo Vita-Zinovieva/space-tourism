@@ -168,6 +168,7 @@
     right: 0;
     float: right;
     padding-left: 120px;
+    z-index: 10;
   }
 }
 
@@ -550,8 +551,8 @@ font-family: 'League Spartan', sans-serif; */
 }
 @media screen and (width > 1440px) {
   .img-crew {
-    bottom: -20%;
-    right: -150%;
+    bottom: -15%;
+    left: 600px;
   }
 }
 
