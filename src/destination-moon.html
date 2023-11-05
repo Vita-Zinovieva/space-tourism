@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./sass/index.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="destination-wrapper" >
+  <header>
+    <section class="header _container">
+      <div class="header-menu">
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu">
+          <span class="hamb-line"></span>
+        </label>
+        <img src="./assets/shared/logo.svg" alt="" class="header-menu__logo">
+        <div class="haeder-menu__wraper">
+          <ul class="header-menu__navbar">
+            <a href="index.html">
+              <li class="navbar-item"><span class="navbar-item-number">00</span> HOME</li>
+            </a>
+
+            <a href="destination-moon.html">
+              <li class="navbar-item"><span class="navbar-item-number">01</span> DESTINATION</li>
+            </a>
+
+            <a href="crew-commander.html">
+              <li class="navbar-item"><span class="navbar-item-number">02</span> CREW</li>
+            </a>
+            
+            <a href="technology-vehicle.html">
+             <li class="navbar-item" ><span class="navbar-item-number">03</span> TECHNOLOGY</li> 
+            </a>
+          </ul>
+        </div>
+      </div>
+      
+    </section>
+  </header>
+
+  <main>
+    <div class="destination-home-page __container">
+      <div class="home-page__content destination-page">
+
+        <div class="destination-main">
+          <h2 class="destination-less-title less-title"><span style="opacity: 0.5;">01</span> Pick your destination</h2>
+          <img src="./assets/destination/image-moon.webp" alt="img-planet" class="img-planet">
+        </div>
+        <ul class="destination-list">
+          <li class="destination-items" data-page="home" data-index="0">Moon</li>
+          <li class="destination-items" data-page="home" data-index="1">Mars</li>
+          <li class="destination-items" data-page="home" data-index="2">Europa</li>
+          <li class="destination-items" data-page="home" data-index="3">Titan</li>
+        </ul>
+        <div class="destination-content">
+          <h1 class="destination-title title-less-title ">MOON</h1>
+          <p class="destination-text text">See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+            regain perspective and come back refreshed. While you’re there, take in some history 
+            by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        </div>
+   
+        <hr class="line">
+
+        <div class="info">
+          <div class="info-km">
+            <p class="name-distance">Avg. distance</p>
+            <p class="info-distance">384,400 km</p>
+          </div>
+          <div class="info-day">
+            <p class="name-distance">Est. travel time</p>
+            <p class="info-distance info-travel-time">3 days</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  
+  </main>
+
+</body>
+<script src="./js/index.js"></script>
+
+</html>
