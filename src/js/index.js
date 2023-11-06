@@ -8,7 +8,6 @@ function activateItem(items) {
       item.classList.add('active');
 
       const textWidth = item.offsetWidth;
-      console.log(textWidth);
       const line = item.querySelector('::after');
       if (line) {
         line.style.width = `${textWidth}px`;
@@ -20,7 +19,7 @@ function activateItem(items) {
 activateItem(destinationItems);
 activateItem(navbarItems);
 
-  // Підключення JSON файлу
+  // Підключення JSON файлу 
   
 document.addEventListener('DOMContentLoaded', function() {
   fetch('data.json')
